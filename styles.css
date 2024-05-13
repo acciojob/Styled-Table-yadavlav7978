@@ -1,1 +1,19 @@
-/* your code */
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+	        border-radius:50px solid white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: aqua;
+        }
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+      
